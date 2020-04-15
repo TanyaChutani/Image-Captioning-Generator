@@ -13,8 +13,8 @@ Flickr8k_text - Each image contains 5 description. <br />
 ## Model
 Built and trained a deep learning model for captioning real world image.
 - Used pre-trained InceptionV3 to extract feature from image.
-- Used pre-trained word2vec embedding, these were feed into a Stacked Bi-directional LSTM layer.
-- They both were combined and predicted the next word till the end of caption using greedy search.
+- Used pre-trained fasttext embedding, these were feed into a Stacked Bi-directional GRU layer.
+- They both were combined and predicted the next word till the end of caption using greedy search (during testing).
 
 ## To Do 
 - Add attention
