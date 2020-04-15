@@ -16,6 +16,10 @@ Built and trained a deep learning model for captioning real world image.
 - Used pre-trained fasttext embedding, these were feed into a Stacked Bi-directional GRU layer.
 - They both were combined and predicted the next word till the end of caption using greedy search (during testing).
 
+## Result
+
+#### Weights
+
 ## To Do 
 - Add attention
 - Use beam search instead of greddy seaech
